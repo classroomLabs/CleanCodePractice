@@ -1,10 +1,8 @@
-# Proton
+# clean_code_practice
 
-> Profesional TypeScript project setup
+> Practice exercise for clean code course students
 >
-> -- by [bitAdemy](https://bitademy.com)
-
-This is a template repository. You can create a copy form it. [(More info about GitHub templates)](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+> -- by [bitAdemy](https://www.bitademy.com)
 
 ## Start
 
@@ -17,15 +15,16 @@ npm i
 yarn
 ```
 
-### Global dependencies :
+## Your Task
 
-#### Parcel
+Refactor `./src/main.ts`, so at the end you could remove the es-lint rules disabling
 
-```bash
-# npm
-npm install -g parcel-bundler
-# yarn
-yarn global add parcel-bundler
+```ts
+/* eslint-disable complexity */
+/* eslint-disable max-depth */
+/* eslint-disable max-lines-per-function */
+/* eslint-disable no-magic-numbers */
+/* eslint-disable max-nested-callbacks */
 ```
 
 ### Scripts :
@@ -34,11 +33,10 @@ yarn global add parcel-bundler
 # npm
 npm start # run de application on localhost
 npm test # excute tests
-nom run deploy # compiles, bundles and pushes to github pages
+
 # yarn
 yarn start # run de application on localhost
 yarn test # excute tests
-yarn deploy # compiles, bundles and pushes to github pages
 ```
 
 ## Recommended VS Code Extensions
@@ -142,20 +140,15 @@ module.exports = {
 ```json
 {
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "rm -rf dist && parcel build ./src/index.html",
-    "predeploy": "rm -rf dist && parcel build ./src/index.html --public-url /proton",
-    "deploy": "gh-pages -d dist",
+    "start": "ts-node ./src/main",
     "test": "jest --watch -o",
-    "format": "prettier --write \"./**/*.{js,ts,json}\"",
-    "lint": "eslint . --ext .ts",
     "jest": "jest"
   },
 ```
 
 ## Credits
 
-### [Clean Code course](https://github.com/BitAdemy/CleanCode)
+### [Clean Code course](https://www.bitademy.com/cursos/clean-code-aplicado-para-desarrollos-limpios-y-rentables/)
 
 Based on its demos and Laboratories.
 

@@ -1,7 +1,7 @@
 {
-  "name": "proton",
+  "name": "clean_code_practice",
   "version": "1.0.0",
-  "description": "Profesional TypeScript project setup",
+  "description": "Practice exercise for clean code course students",
   "author": {
     "name": "Alberto Basalo",
     "email": "learn@bitademy.com",
@@ -9,12 +9,12 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomicBuilders/proton/issues"
+    "url": "https://github.com/LabsAdemy/CleanCodePractice/issues"
   },
-  "homepage": "https://github.com/AtomicBuilders/proton#readme",
+  "homepage": "https://github.com/LabsAdemy/CleanCodePractice#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtomicBuilders/proton.git"
+    "url": "git+https://github.com/LabsAdemy/CleanCodePractice.git"
   },
   "keywords": [
     "JS",
