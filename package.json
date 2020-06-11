@@ -28,8 +28,6 @@
   "scripts": {
     "start": "ts-node ./src/main",
     "test": "jest --watch -o",
-    "format": "prettier --write \"./**/*.{js,ts,json}\"",
-    "lint": "eslint . --ext .ts",
     "jest": "jest"
   },
   "devDependencies": {
