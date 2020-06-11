@@ -1,6 +1,7 @@
-document.addEventListener('DOMContentLoaded', init);
-
-export function init(): boolean {
+export { init };
+function init(): boolean {
   console.log('App ready');
   return true;
 }
+
+init();

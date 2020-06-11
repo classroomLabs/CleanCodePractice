@@ -2,5 +2,5 @@
 import { init } from './main';
 
 describe('main', () => {
-  test('init existis', () => expect(init()).toEqual(true));
+  test('init exists', () => expect(init()).toEqual(true));
 });
